@@ -10,7 +10,3 @@ def my_own_map(element1)
   end 
   new
 end 
-
-my_own_map(element1).map  do |n| 
-  n * -1
-end 
