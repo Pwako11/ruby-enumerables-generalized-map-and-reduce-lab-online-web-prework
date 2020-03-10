@@ -1,7 +1,7 @@
 # Your Code Here
 require 'pry'
 
-def my_own_map(element1)
+def map(element1)
   new = []
   i = 0 
   while i <  element1.length do
