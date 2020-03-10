@@ -4,7 +4,7 @@ require 'pry'
 def my_own_map(element1)
   new = []
   i = 0 
-  while i <  element1.length do 
+  while i <  element1.length
     new.push(yield(element1[i]))
     i += 1 
   end 
