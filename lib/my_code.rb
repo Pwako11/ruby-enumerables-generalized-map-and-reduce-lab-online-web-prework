@@ -12,8 +12,14 @@ def map(element1)
 end 
 
 def reduce(source_array, starting_point=nil)
-  new = starting_point
-  i = 0
+  if starting_point
+    new = starting_point
+    i = 0
+  else
+    starting_point = source_array[i]
+    i = 1 
+  end 
+  
   while i < source_array.length do
     new += (yield(source_array[i]))
     i += 1
