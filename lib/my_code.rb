@@ -10,3 +10,7 @@ def map(element1)
   end 
   new
 end 
+
+def reduce
+  
+end
