@@ -16,7 +16,7 @@ def reduce(source_array, starting_point=nil)
     new = starting_point
     i = 0
   else
-    new = source_array[i]
+    new = source_array[0]
     i = 1 
   end 
   
